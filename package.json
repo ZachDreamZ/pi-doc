@@ -1,0 +1,45 @@
+{
+  "name": "@realvendex/pi-doc",
+  "version": "1.0.0",
+  "description": "API documentation generator for pi.dev extensions — parse TypeBox schemas and generate Markdown/HTML docs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "documentation",
+    "api-docs",
+    "generator",
+    "pi-dev",
+    "pi-extension",
+    "typebox"
+  ],
+  "author": "realvendex",
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./dist"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@sinclair/typebox": "^0.34.0",
+    "@biomejs/biome": "^1.9.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {}
+}
