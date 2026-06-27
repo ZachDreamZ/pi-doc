@@ -1,11 +1,11 @@
-# pi-doc
+# @realvendex/pi-doc
 
 > API documentation generator for pi.dev extensions — parse TypeBox schemas and generate Markdown/HTML docs.
 
 ## Installation
 
 ```bash
-pi install npm:pi-doc
+pi install npm:@realvendex/pi-doc
 ```
 
 ## What It Does
